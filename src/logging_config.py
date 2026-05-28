@@ -23,6 +23,7 @@ LOGGING_CONFIG = {
             "formatter": "standard",
             "mode": "a",
             "filename": "shell.log",
+            "encoding": "utf-8",
             "maxBytes": 5 * 1024 * 1024,
             "backupCount": 5,
             "level": "DEBUG",
